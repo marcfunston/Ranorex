@@ -78,10 +78,9 @@ class Card
 
     function StartCard()
     {
-		
-        echo"\n	    <div class=\"w3-container w3-show\">\n";
-        echo"          <div class=\"w3-card-4 w3-light-grey \" style=\"width:100%\">\n";
-        echo"            <div class=\"w3-container\">\n";
+        echo"\n          <div class=\"w3-container w3-show\">\n";
+        echo"            <div class=\"w3-card-4 w3-light-grey \" style=\"width:100%\">\n";
+        echo"              <div class=\"w3-container\">\n";
         echo"                <div class=\"w3-container w3-left\">\n";
         echo"                  <h5>$this->card_title</h5>\n";
         echo"                </div>\n";
@@ -94,10 +93,10 @@ class Card
         echo"                <div class=\"w3-section w3-right\">\n";
         echo"                  <button onclick=\"myFunction('card$this->card_number')\" class=\"w3-button w3-white\">Answer</button>\n";
         echo"                </div>\n";
+        echo"              </div>\n";
         echo"            </div>\n";
-        echo"        </div>\n";
-        echo"    </div>\n";
-        echo"  <br><br>\n";
+        echo"          </div>\n";
+        echo"        <br><br>\n";
     }
 
 
