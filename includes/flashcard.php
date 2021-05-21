@@ -84,10 +84,10 @@ class Card
         echo"                <div class=\"w3-container w3-left\">\n";
         echo"                  <h5>$this->card_title</h5>\n";
         echo"                </div>\n";
-        echo"                <div id=\"DEMO2\"B class=\"w3-container w3-left\">\n";
+        echo"                <div id=\"DEMO2\" class=\"w3-container w3-left\">\n";
         echo"                  <h3>$this->question</h3>\n";
         echo"                </div>\n";
-        echo"                <div id=\"DEMO\"A class=\"w3-container w3-left w3-hide\">\n";
+        echo"                <div id=\"DEMO\" class=\"w3-container w3-left w3-hide\">\n";
         echo"                  <h3>$this->answer</h3>\n";
         echo"                </div>\n";
         echo"                <div class=\"w3-section w3-right\">\n";
